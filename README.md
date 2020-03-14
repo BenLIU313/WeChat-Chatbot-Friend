@@ -1,20 +1,26 @@
 # WeChat-Chatbot-Friend
+
 A chatbot friend who can make you happy, comfort you, tell you the weather report and provide some financial information.
 Ben can do these things:
 
 1.Be your friend:
+    
     Talk with you simply.
 
 2.Make you happy:
+    
     Tell jokes to you.
     
 3.Weather report:
+    
     Enter the zip code and get the weather report.
 
 4.Comfort you：
+    
     When you are sad, Ben can comfort you and share music that make you feel better. 
     
 5.Help you make more money:
+    
     Enterd the market name or stock name, and get the finance information at follow list:
     
     1.market summary：
