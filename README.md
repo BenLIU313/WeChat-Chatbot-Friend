@@ -39,7 +39,8 @@ Ben can do these things:
            regularMarketPreviousClose:
              2,480.64
            market:us_market
-             region:US）
+             region:US
+             ）
              
     2.stock profile：
     
@@ -60,7 +61,8 @@ Ben can do these things:
            pageViews:
            shortTermTrend:  DOWN
            midTermTrend:      UP
-           longTermTrend:     UP）
+           longTermTrend:     UP
+           ）
            
     3.stock holders（stock inside holders）：
     
@@ -88,7 +90,8 @@ Ben can do these things:
            5.name: KETCHUM STEVEN B
              relation:      Officer
              latestTransDate:2020-02-28
-             positionDirect:  516.01k）
+             positionDirect:  516.01k
+             ）
              
     4.stock financials（stock cashflow and stock balanced sheet）
     
