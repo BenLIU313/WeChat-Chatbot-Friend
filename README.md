@@ -18,7 +18,7 @@ Ben can do these things:
 
 4.Comfort you：
     
-    When you are sad, Ben can comfort you and share music that make you feel better. 
+    When you are sad, Ben can comfort you and share musics that make you feel better. 
     
 5.Help you make more money:
     
