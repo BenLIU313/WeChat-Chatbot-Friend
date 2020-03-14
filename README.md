@@ -3,10 +3,10 @@ A chatbot friend who can make you happy, comfort you, tell you the weather repor
 Ben can do these things:
 
 1.Be your friend:
-    talk with you simply.
+    Talk with you simply.
 
 2.Make you happy:
-    tell jokes to you.
+    Tell jokes to you.
     
 3.Weather report:
     Enter the zip code and get the weather report.
