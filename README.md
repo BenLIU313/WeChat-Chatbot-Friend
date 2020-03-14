@@ -1,6 +1,6 @@
 # WeChat-Bot-Friend Ben
 
-[Demo Video](https://www.youtube.com/watch?v=UID1qNaUMJ0 "Click on it")
+[[Click here and watch the demo video]](https://www.youtube.com/watch?v=UID1qNaUMJ0 "Click on it")
 
 A chatbot friend who can make you happy, comfort you, tell you the weather report and provide some financial information.
 
