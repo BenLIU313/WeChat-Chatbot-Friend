@@ -5,16 +5,16 @@ Ben can do these things:
 1.Be your friend:
     talk with you simply.
 
-2.make you happy:
+2.Make you happy:
     tell jokes to you.
     
-3.weather report:
+3.Weather report:
     Enter the zip code and get the weather report.
 
-4.comfort you：
+4.Comfort you：
     When you are sad, Ben can comfort you and share music that make you feel better. 
     
-5.help you make more money:
+5.Help you make more money:
     Enterd the market name or stock name, and get the finance information at follow list:
     
     1.market summary：
