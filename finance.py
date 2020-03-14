@@ -11,10 +11,10 @@ def sp(stock):
     response = requests.request("GET", url, headers=headers, params=querystring)
 
     js = response.json()
-    #Sorting result
     s=js["price"]
     result=("Symbol:{0}\nsector:{1}\n\nregularMarketOpen:\n{2}\n\naverageDailyVolume3Month:\n{3}\n\n"
-            "averageDailyVolume10Day:\n{4}\n\nregularMarketDayHigh:\n{5}\n\nregularMarketChange:\n{6}\n\nregularMarketPreviousClose:\n"
+            "averageDailyVolume10Day:\n{4}\n\nregularMarketDayHigh:\n{5}\n\nregularMarketChange:\n{6}"
+            "\n\nregularMarketPreviousClose:\n"
             "{7}\n\npageViews:\nshortTermTrend:{8}\nmidTermTrend:{9}\nlongTermTrend:{10}")\
         .format(js["symbol"],js["assetProfile"]["sector"],s["regularMarketOpen"]["fmt"],
                 s["averageDailyVolume3Month"]["fmt"],s["averageDailyVolume10Day"]["fmt"],s["regularMarketDayHigh"]["fmt"],
@@ -32,7 +32,6 @@ def sf(stock):
 
     re = requests.request("GET", url, headers=headers, params=querystring)
     js=re.json()
-    #Sorting result
     j=js["cashflowStatementHistory"]["cashflowStatements"][0]
     s=js["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]
     result=("CashflowStatements:\n\nchangeToLiabilities:{0}\ntotalCashflowsFromInvestingActivities:{1}\n"
@@ -59,7 +58,6 @@ def sh(stock):
 
     re = requests.request("GET", url, headers=headers, params=querystring)
     js=re.json()
-    #Sorting result
     s=js["insiderHolders"]["holders"]
     result=("InsiderHolders:\n\n1.name:{0}\nrelation:{1}\nlatestTransDate:{2}\npositionDirect:{3}\n\n"
             "2.name:{4}\nrelation:{5}\nlatestTransDate:{6}\npositionDirectDate:{7}\n\n"
@@ -85,7 +83,6 @@ def market(region):
 
     r = requests.request("GET", url, headers=headers, params=querystring)
     js=r.json()
-    #Sorting result
     result=("ExchangeTimezoneName:{0}\nfullExchangeName:{1}\n\nregularMarketChange:\n{2}\n\nregularMarketTime:\n"
             "{3}\n\nregularMarketChangePercent:\n{4}\n\nregularMarketPrice:\n{5}\n\n"
             "regularMarketPreviousClose:\n{6}\n\nmarket:{7}\nregion:{8}")\
