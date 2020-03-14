@@ -1,6 +1,7 @@
 # WeChat-Chatbot-Friend
 
 A chatbot friend who can make you happy, comfort you, tell you the weather report and provide some financial information.
+
 Ben can do these things:
 
 1.Be your friend:
