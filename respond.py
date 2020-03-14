@@ -5,15 +5,12 @@ from finance import market
 from finance import sh,sf,sp
 import random
 
-
-# Define state
 INIT=0
 MARKET_SUMMARY=1
 PROFILE_SYMBOL=2
 HOLDERS_SYMBOL=3
 FINANCIALS_SYMBOL=4
 
-# Define responses list
 sad_responses=["Keep smiling! Things will calm down.https://music.163.com/#/song?id=523504",
                "I'm here for you.https://music.163.com/#/song?id=347230",
                "Win a few, lose a few. that's life.https://music.163.com/#/song?id=1383639 ",
@@ -26,13 +23,10 @@ happy_responses=[";-)，Got it.What would you want to know?","^0^，La La La La�
                  "^_~，Got it.What would you want?"]
 thanks_respoonses=["You're welcome."," I'm glad I can help you!","It's my pleasure"]
 
-
 def interpret(message):
     intent = interpreter.parse(message)["intent"]["name"]
     return intent
-
-
-# Define respond
+ 
 def respond(state,message):
     intent = interpreter.parse(message)["intent"]["name"]
     if intent=="joke":
@@ -59,7 +53,7 @@ def respond(state,message):
             stock_financials=sf(symbol)
         else:stock_financials="Please enter it again"
     else: stock_financials,stock_holders,stock_profile="Please enter it again","Please enter stock name","Please enter stock "
-    # Define the policy rules
+
     policy = {
         (INIT, "greet"): (INIT, random.choice(greet_responses)),
         (INIT, "name"): (INIT, "My name is Ben robot,you can call me Ben."),
