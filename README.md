@@ -66,7 +66,7 @@ Ben can do these things:
            longTermTrend:     UP
            ）
            
-    3.Stock holders（Stock inside holders）：
+    3.Stock holders（Stock insider holders）：
     
     （e.g：InsiderHolders:
            1.name:    BERG AARON D.
