@@ -113,6 +113,7 @@ Ben can do these things:
            otherCurrentLiab:                     18.54M
            totalAssets:                         882.21M
            commonStock:                         269.17M
-           treasuryStock:                        -35.9M)
+           treasuryStock:                        -35.9M
+           )
            
            
