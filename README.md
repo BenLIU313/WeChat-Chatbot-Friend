@@ -24,7 +24,7 @@ Ben can do these things:
     
     Enterd the market name or stock name, and get the finance information at follow list:
     
-    1.market summary：
+    1.Market summary：
     
     （e.g：ExchangeTimezoneName:America/New_York
            fullExchangeName:SNP
@@ -42,7 +42,7 @@ Ben can do these things:
              region:US
              ）
              
-    2.stock profile：
+    2.Stock profile：
     
     （e.g：Symbol:AMRN
            sector:Healthcare
@@ -64,7 +64,7 @@ Ben can do these things:
            longTermTrend:     UP
            ）
            
-    3.stock holders（stock inside holders）：
+    3.Stock holders（Stock inside holders）：
     
     （e.g：InsiderHolders:
            1.name:    BERG AARON D.
@@ -93,7 +93,7 @@ Ben can do these things:
              positionDirect:  516.01k
              ）
              
-    4.stock financials（stock cashflow and stock balanced sheet）
+    4.Stock financials（Stock cashflow and Stock balanced sheet）
     
     （e.g：CashflowStatements:
 
