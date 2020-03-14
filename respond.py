@@ -128,7 +128,7 @@ def respond(state,message):
         HOLDERS_SYMBOL, "My name is Ben, I think you should remember me,please choose a stock."),
         (HOLDERS_SYMBOL, "can"): (HOLDERS_SYMBOL, "I am working, please choose a stock."),
         (HOLDERS_SYMBOL, "thanks"): (HOLDERS_SYMBOL, "It is my pleasure, please choose a stock."),
-        (HOLDERS_SYMBOL, "no"): (HOLDERS_SYMBOL, "OK,what would you want to know?"),
+        (HOLDERS_SYMBOL, "no"): (INIT, "OK,what would you want to know?"),
         (HOLDERS_SYMBOL, "market"): (
         HOLDERS_SYMBOL, "If you don't want to get information about stock,please say 'no'."),
         (HOLDERS_SYMBOL, "profile"): (PROFILE_SYMBOL, "OK,here is stock profile.\nPlease choose a stock."),
