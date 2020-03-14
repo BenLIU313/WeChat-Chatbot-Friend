@@ -1,0 +1,1118 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "stock",
+        "synonyms": ["srock", "stovk", "stocks"]
+      },
+      {
+        "value": "profile",
+        "synonyms": ["profiles", "prof"]
+      },
+      {
+        "value": "holders",
+        "synonyms": ["holder"]
+      },
+      {
+        "value": "financials",
+        "synonyms": ["finance"]
+      },
+      {
+        "value": "bye",
+        "synonyms": ["8","88","by"]
+      },
+      {
+        "value": "thanks",
+        "synonyms": ["thx"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "halo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "helo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hallo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "^_^",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text":"(≧ω≦)/",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text":"（∩▽∩）",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text":"(/^▽^)/ ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text":"(＾▽＾) ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thank",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thx",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "you are so great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "excellent",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "i am happy",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thank you very much",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Good job",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "Very good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "i am happy",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "i'm happy",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "what can you do",
+        "intent": "can",
+        "entities": []
+      },
+      {
+        "text": "What would you do",
+        "intent": "can",
+        "entities": []
+      },
+      {
+        "text": "what do you do",
+        "intent": "can",
+        "entities": []
+      },
+       {
+        "text": "What's Your Name",
+        "intent": "name",
+        "entities": []
+      },
+       {
+        "text": "What should I call you",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "What name is it",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "What name",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "name",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "What your name",
+        "intent": "name",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "not",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "I don't want to go on",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "I do not want to go on",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "don't",
+        "intent": "no",
+        "entities": []
+      },
+      {
+        "text": "i want to know about the market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "What do you think of the market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "What do you think of the market",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "what about the market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "do you know the market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "i want summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "what is the summary of the market",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "i want to know about the stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "do you know the stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "how about the stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "what about the stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "I want to know about stock summary",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "I want to know about stock",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "I want to know about stock prof",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "I want to know stock",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "I want to search for stocks profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "i want to know about the stock holders",
+        "intent": "holders",
+        "entities": []
+      },{
+        "text": "i want to know about stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+
+      {
+        "text": "do you know the stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "what about the stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "i want to search for the stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "how about the stock inside holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "how about the stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "i want to know about the inside holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "i want to know about stock cashflow",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "i want to know about stock balanced sheet",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "i want to know about stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "i want to know about the stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "what about the stock balanced sheet",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "what about the stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "what about the stock cashflow",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "how about the stock balanced sheet",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "how about the stock cashflow",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "show me the stock cashflow",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "show me the stock financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "show me the stock profile",
+        "intent": "profile",
+        "entities": []
+      },
+      {
+        "text": "show me the balanced sheet",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "financials",
+        "intent": "financials",
+        "entities": []
+      },
+      {
+        "text": "show me the market summary",
+        "intent": "market",
+        "entities": []
+      },
+      {
+        "text": "show me the stock holders",
+        "intent": "holders",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "88",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "tell a joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "i want a joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "tell somthing fun",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "tell me something interesting",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "play a joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "jokes",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "another joke",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "another one",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "make me happy",
+        "intent": "joke",
+        "entities": []
+      },
+      {
+        "text": "do you know something interesting",
+        "intent": "joke",
+        "entities": []
+      },
+
+      {
+        "text": "I'm so sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I'm sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I am sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I am so sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I am very sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I was crying",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "crying",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "( •̥́ ˍ •̀ू )",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "😭",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "😫",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text":"(T＿T)",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text":"〒▽〒",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text":"(。•́︿•̀。)",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I feel so sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I feel sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "my grandfather was dead",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I feel terrible",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I feel sad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I'm so injustice",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I'm unhappy",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I feel so bad",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "I hate you",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "Get out of my face",
+        "intent": "sad",
+        "entities": []
+      },
+      {
+        "text": "What did you say",
+        "intent": "none",
+        "entities": []
+      },
+      {
+        "text": "fuck you",
+        "intent": "none",
+        "entities": []
+      },
+      {
+        "text": "i want to know the weather in 94111",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "94111",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "show me the weather in 94111",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "94111",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "weather in 94111",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "94111",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "weather in 74569",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "74569",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "94111",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "94111",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "94111",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "94111",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "85623",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "85623",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "12345",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "12345",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "23568",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "23568",
+            "entity": "zip"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for US",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "US",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "US",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "US",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for CA",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "CA",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "CA",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CA",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "HK",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "HK",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "know HK",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "HK",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "i want to know HK",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "HK",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "i want to know US",
+        "intent": "region",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "US",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "AMRN",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "AMRN",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "TSLA",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "TSLA",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "AAPL",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "AAPL",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "TSM",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "TSM",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "IBM",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "IBM",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "JBL",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "JBL",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "MSFT",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "MSFT",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "GOOG",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "GOOG",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "NTDOY",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "NTDOY",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "CMCSA",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "CMCSA",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "i want to know about AMRN",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "AMRN",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "i want to know about TSLA",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "TSLA",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "i want to know about CMCSA",
+        "intent": "stock",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "CMCSA",
+            "entity": "symbol"
+          }
+        ]
+      },
+      {
+        "text": "goodbye", 
+        "intent": "bye",
+        "entities": []
+      }, 
+      {
+        "text": "good bye", 
+        "intent": "bye",
+        "entities": []
+      }, 
+      {
+        "text": "stop", 
+        "intent": "bye",
+        "entities": []
+      }, 
+      {
+        "text": "end", 
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "bye",
+        "entities": []
+      }
+    ]
+  }
+}
